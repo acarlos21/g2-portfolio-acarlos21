@@ -23,3 +23,16 @@ p{
   margin:30px;
   width: 55%;
 }
+
+.project-image {
+  margin: 0 10px;
+  width: 200px;
+  height: 200px;
+  opacity: 0.75;
+  transition: box-shadow 0.5s, opacity 0.5s;
+}
+
+.project-image:hover {
+  box-shadow: 0 0 5px 5px #555555;
+  opacity: 1.0;
+}
