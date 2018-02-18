@@ -21,13 +21,13 @@ span {
 p{
   background-color: #bcf4f0;
   margin:30px;
-  width: 55%;
+  width: 65%;
 }
 
 .project-image {
   margin: 0 10px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   opacity: 0.75;
   transition: box-shadow 0.5s, opacity 0.5s;
 }
@@ -35,4 +35,9 @@ p{
 .project-image:hover {
   box-shadow: 0 0 5px 5px #555555;
   opacity: 1.0;
+}
+
+img {
+  width:200;
+  height:200;
 }
